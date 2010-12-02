@@ -6,8 +6,7 @@ A Simple class to add a image transition on image hover
 How to use
 ----------
 
-var iw = new ImageTween(
-{
+var iw = new ImageTween({
 	el: document.id('tweenthis'),
 	startImg: 'start.jpg',
 	endImg: 'end.jpg',
