@@ -10,9 +10,7 @@ How to use
 
 You may use this plugin by declaring an empty element that will contain both images, that will be specified in the class instance:
 
-var iw = new ImageTween({
-	el: document.id('tweenthis'),
-	startImg: 'start.jpg',endImg: 'end.jpg',
-	href: 'http://panaghia.it'
-});
+var iw = new ImageTween({el: document.id('tweenthis'),
+startImg: 'start.jpg',endImg: 'end.jpg',
+href: 'http://panaghia.it'});
 	
