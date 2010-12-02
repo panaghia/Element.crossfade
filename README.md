@@ -12,8 +12,7 @@ You may use this plugin by declaring an empty element that will contain both ima
 
 var iw = new ImageTween({
 	el: document.id('tweenthis'),
-	startImg: 'start.jpg',
-	endImg: 'end.jpg',
+	startImg: 'start.jpg',endImg: 'end.jpg',
 	href: 'http://panaghia.it'
 });
 	
