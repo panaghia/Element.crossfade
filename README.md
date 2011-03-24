@@ -1,18 +1,18 @@
 Image Tween
 ===========
 
-A simple plugin for Image Tween for MooTools!
+Change background-image with fade effect  
 
-![Screenshot](http://panaghia.it/dev/image-tween/tween-image-demo.png)
+![Screenshot](http://dl.dropbox.com/u/5138746/crossfade.jpg)
 
 How to use
 ----------
 
-You may use this plugin by declaring an empty element that will contain both images, that will be specified in the class instance:
+This plugin extends the element class by providing a function named crossfade
 
-var iw = new ImageTween({
-el: document.id('tweenthis'),
-startImg: 'start.jpg',endImg: 'end.jpg',
-href: 'http://panaghia.it'
-});
-	
+You can use this function this way:
+
+	document.id('element').crossfade('end_image.jpg');
+
+The element's position style (position:[..]) should be expressly declared in stylesheet.
+
