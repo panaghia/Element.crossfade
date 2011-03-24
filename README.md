@@ -1,4 +1,4 @@
-Image Tween
+Element.crossfade
 ===========
 
 Change background-image with fade effect  
