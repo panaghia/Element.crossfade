@@ -1,6 +1,6 @@
-name: Image Tween
+name: Element.crossfade
 author: panaghia
 category: Effects
-tags: [animation, transition, hover]
-demo: http://panaghia.it/dev/image-tween
-current: 0.1
+tags: [animation, transition, tween]
+demo: http://panaghia.it/dev/crossfade
+current: 0.2

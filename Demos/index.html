@@ -5,30 +5,47 @@
 			{
 				border:0px;
 				text-decoration:none;
+			} 
+			
+			#show
+			{ 
+				position:relative;
+				margin:0 auto;
+				width:492px;
+				height:243px;
+				background-image: url('start.jpg');
 			}
 		</style>
-		<script type="text/javascript" src="core.js"></script>
-		<script type="text/javascript" src="more.js"></script>
-		<script type="text/javascript" src="image-tween.js"></script>
+		<script type="text/javascript" src="mootools/core.js"></script>
+		<script type="text/javascript" src="mootools/more.js"></script>
+		<script type="text/javascript" src="../Source/ImageTween.js"></script>
 		
 		<script type="text/javascript">
 		window.addEvent('domready', function()
 		{
-			var iw = new ImageTween(
+			
+			document.id('show').set('tween', {duration:1000});
+			
+						
+			document.id('show').addEvent('mouseenter', function()
 			{
-				el: document.id('tweenthis'),
-				startImg: 'start.jpg',
-				endImg: 'end.jpg',
-				href: 'http://panaghia.it'
+			   document.id('show').crossfade('end.jpg'); 
+				
 			});
+			document.id('show').addEvent('mouseleave', function()
+			{
+			    document.id('show').crossfade('start.jpg'); 
+			});
+			
 			
 		});
 		</script>
 	</head>
 	<body>
 	
-		<div style="display:inline-block" id="tweenthis">
-		</div>
+	 <div id="show">
+		
+	 </div>
 	
 	</body>
 </html>
