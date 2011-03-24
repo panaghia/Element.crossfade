@@ -8,7 +8,7 @@ Change background-image with fade effect
 How to use
 ----------
 
-This plugin extends the element class by providing a function named crossfade
+This plugin extends the element class by providing a function named crossfade to tween background-image property.
 
 You can use this function this way:
 
